@@ -1,10 +1,8 @@
 import {Outlet} from "react-router-dom";
-import {Menu} from "../components/menu-components/Menu.tsx";
 
-export const Layout = () => {
+export const Menu = () => {
     return (
         <div>
-            <Menu/>
             <Outlet/>
         </div>
     );
