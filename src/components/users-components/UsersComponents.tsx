@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
-import {IUser} from "../../../models/IUser.ts";
-import {getUsers} from "../../../services/users.api.service.ts";
-import {UserComponent} from "../User/UserComponent.tsx";
+import {IUser} from "../../models/IUser.ts";
+import {getUsers} from "../../services/users.api.service.ts";
+import {UserComponent} from "./UserComponent.tsx";
 
 export const UsersComponents = () => {
 

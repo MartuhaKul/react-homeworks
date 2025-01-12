@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
 import {Layout} from "../layouts/Layout.tsx";
-import {UsersPage} from "../pages/users-page/UsersPage.tsx";
-import {PostsPage} from "../pages/posts-page/PostsPage.tsx";
+import {UsersPage} from "../pages/UsersPage.tsx";
+import {PostsPage} from "../pages/PostsPage.tsx";
 
 export const routes = createBrowserRouter([
     {

@@ -1,4 +1,4 @@
-import {IPost} from "../../../models/IPost.ts";
+import {IPost} from "../../models/IPost.ts";
 
 interface PostProps {
     item: IPost;
@@ -7,7 +7,7 @@ interface PostProps {
 export const PostComponent = ({item}:PostProps) => {
     return (
         <div>
-            <h3>{item.title}</h3>
+            <h3>{item.userId}.{item.title}</h3>
 
         </div>
     );

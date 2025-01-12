@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    padding:20px;
+}
+
+body {
+    overflow-x: hidden;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: #b0ccff;
+    margin-bottom: 20px;
+}
