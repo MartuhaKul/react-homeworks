@@ -1,5 +1,6 @@
 import {IUser} from "../../models/IUser.ts";
 import {useNavigate} from "react-router-dom";
+import "./UserComponentCss.css"
 
 interface UserProps {
     item: IUser,
@@ -14,9 +15,9 @@ export const UserComponent = ({item}:UserProps) => {
     }
 
     return (
-        <div>
-            <h3>{item.firstName} {item.lastName}</h3>
-            <button onClick={onButtonClick}>Details</button>
+        <div className='userContainer'>
+            <h3>{item.id}. {item.firstName} {item.lastName}</h3>
+            <button className='buttonDetails' onClick={onButtonClick}>Details</button>
         </div>
     );
 };
