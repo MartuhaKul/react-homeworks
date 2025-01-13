@@ -4,8 +4,10 @@ import {Outlet} from "react-router-dom";
 export const UsersPage = () => {
     return (
         <>
-            <UsersComponent/>
+            <hr/>
             <Outlet/>
+            <hr/>
+            <UsersComponent/>
         </>
     );
 };
