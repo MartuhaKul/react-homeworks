@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
 import {IUser} from "../../models/IUser.ts";
 import {getUsers} from "../../services/users.api.service.ts";
-import {UserComponent} from "./UserComponent.tsx";
+import {UserComponent} from "../user-component/UserComponent.tsx";
 
-export const UsersComponents = () => {
+export const UsersComponent = () => {
 
     const [users, setUsers] = useState<IUser[]>([]);
 

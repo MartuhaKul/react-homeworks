@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
 import {IPost} from "../../models/IPost.ts";
 import {getPosts} from "../../services/posts.api.service.ts";
-import {PostComponent} from "./PostComponent.tsx";
+import {PostComponent} from "../post-component/PostComponent.tsx";
 
-export const PostsComponents = () => {
+export const PostsComponent = () => {
 
     const [posts, setPosts] = useState<IPost[]>([])
 

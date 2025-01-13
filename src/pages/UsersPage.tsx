@@ -1,4 +1,4 @@
-import {UsersComponents} from "../components/users-components/UsersComponents.tsx";
+import {UsersComponent} from "../components/users-component/UsersComponent.tsx";
 import "./PageCss.css";
 
 export const UsersPage = () => {
@@ -6,7 +6,7 @@ export const UsersPage = () => {
         <div>
             <h2 className='text-2xl'>Users page</h2>
             <div className='wrapper text-xl'>
-                <UsersComponents/>
+                <UsersComponent/>
             </div>
         </div>
     );

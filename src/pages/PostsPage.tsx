@@ -1,4 +1,4 @@
-import {PostsComponents} from "../components/posts-components/PostsComponents.tsx";
+import {PostsComponent} from "../components/posts-component/PostsComponent.tsx";
 import "./PageCss.css";
 
 export const PostsPage = () => {
@@ -6,7 +6,7 @@ export const PostsPage = () => {
         <div>
             <h2 className='text-2xl'>Posts page</h2>
             <div className='wrapper text-l'>
-                <PostsComponents/>
+                <PostsComponent/>
             </div>
         </div>
     );
