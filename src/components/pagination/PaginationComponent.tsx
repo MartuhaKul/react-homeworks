@@ -3,9 +3,9 @@ import "./PaginationStyle.css";
 
 export const PaginationComponent = () => {
     const [query, setQuery] = useSearchParams({page: '1'});
+    const currPage = query.get('page');
 
     const handlePrev = () => {
-        const currPage = query.get('page');
         if (currPage) {
             let currentPage = +currPage;
             if (currentPage > 1) {
@@ -15,7 +15,6 @@ export const PaginationComponent = () => {
     };
 
     const handleNext = () => {
-        const currPage = query.get('page');
         if (currPage) {
             let currentPage = +currPage;
             setQuery({page: (++currentPage).toString()});
