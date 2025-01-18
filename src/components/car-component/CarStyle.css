@@ -1,0 +1,20 @@
+.car-container {
+    border: 1px solid #3666cc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px;
+    background-color: rgba(228, 243, 255, 0.55);
+    text-align: center;
+}
+
+.car-container h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.car-container h4 {
+    font-size: 1.2rem;
+    margin: 4px 0;
+    color: #555;
+}
